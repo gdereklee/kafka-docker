@@ -3,8 +3,8 @@ FROM openjdk:8u212-jre-alpine
 ARG kafka_version=2.4.0
 ARG scala_version=2.12
 ARG glibc_version=2.30-r0
-#ARG vcs_ref=unspecified
-#ARG build_date=unspecified
+ARG vcs_ref=unspecified
+ARG build_date=unspecified
 
 #LABEL org.label-schema.name="kafka" \
 #      org.label-schema.description="Apache Kafka" \
